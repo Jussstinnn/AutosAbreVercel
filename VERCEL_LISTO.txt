@@ -1,0 +1,14 @@
+AUTOS ABRE - DESPLIEGUE EN VERCEL
+
+Configuración incluida:
+- Framework: Vite
+- Install Command: npm install
+- Build Command: npm run build
+- Output Directory: dist
+- Node.js: 22.x
+- Rewrites SPA para React Router
+
+Modo actual: datos mock.
+No es necesario crear variables de entorno para la demo.
+
+Al importar el repositorio en Vercel, dejá Root Directory en la raíz del proyecto.

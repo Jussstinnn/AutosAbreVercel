@@ -1,0 +1,18 @@
+AUTOS ABRE V4 - COMO EJECUTAR
+
+1. Borre o cierre la carpeta de la versión anterior para no confundir proyectos.
+2. Extraiga TODO el contenido del ZIP en una carpeta normal.
+3. Haga doble clic en INICIAR_AUTOS_ABRE.bat.
+4. La primera ejecución instala las dependencias mediante PNPM y necesita Internet.
+5. Cuando termine, el navegador se abre en http://localhost:5173/.
+6. Para detener la página, vuelva a la consola y presione Ctrl + C.
+7. En las siguientes ejecuciones no se reinstala todo si node_modules ya existe.
+
+CAMBIOS PRINCIPALES DE V4:
+- Título del banner con interlineado estable para evitar letras superpuestas.
+- Hero móvil más compacto y sin espacio vacío exagerado antes del buscador.
+- Buscador reconstruido con proporciones consistentes en desktop, tablet y móvil.
+- Selectores con flechas personalizadas y mejor separación interna.
+- Años lado a lado en móvil; precio, transmisión y botón a ancho completo.
+- Carrusel automático restaurado, continuo y con velocidad legible.
+- El carrusel sigue moviéndose aunque Windows tenga activada la reducción de animaciones.
